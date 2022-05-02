@@ -1,0 +1,45 @@
+html{
+    width: 100vw
+}
+
+:root{
+    --main-color: #1C1C1C;
+    --main-text-color: lightgrey;
+    --main-background: #2D2D2D;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+@font-face{
+    font-family: "Varela Round";
+    src: url("font/Varela_Round/VarelaRound-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("font/Roboto/Roboto-light.ttf");
+}
+
+
+body{
+    background-color: var(--main-background);
+}
+
+.TITLE{
+    font-family: 'Roboto';
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.descr{
+    font-family: 'Roboto';
+    color: white;
+    font-size: large;
+    text-align: center;
+}
