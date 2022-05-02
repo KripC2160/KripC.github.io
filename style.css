@@ -23,6 +23,8 @@ html{
 
 
 body{
+    background-image: url('img/Webp.net-resizeimage.png');
+    background-attachment: fixed;
     background-color: var(--main-background);
 }
 
@@ -47,35 +49,34 @@ li {
 }
 
 .topnav{
-    list-style: none;
-    font-family: 'Roboto';
-    color: aliceblue;
-    text-align: left;
-    position: absolute;
-    top: 42.5%;
-    left: 2%;
+    overflow: hidden;
 }
 
 .topnav a{
-    position:relative;
+    float: left;
     color: white;
-    font-family: 'Roboto';
-    font-size: 40px;
-    left: 3%;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto';
 }
 
 .topnav a:hover{
+    color: rgb(170, 170, 170)
+}
+
+.topnav a.active {
     color: var(--highlight);
 }
 
 .shortdescr{
-    width: 500px;
     color:white;
     font-family: 'Roboto';
     font-size: 20px;
-    text-align: right;
-    position: absolute;
-    top: 42.5%;
-    right: 6%;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
 }
