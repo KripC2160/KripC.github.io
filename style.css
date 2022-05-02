@@ -34,7 +34,7 @@ li {
 
 
 .TITLE{
-    font-family: 'Roboto';
+    font-family: sans-serif;
     font-size: 100px;
     text-align: center;
     color: white;
@@ -42,7 +42,7 @@ li {
 }
 
 .descr{
-    font-family: 'Roboto';
+    font-family: sans-serif;
     color: white;
     font-size: large;
     text-align: center;
@@ -59,7 +59,7 @@ li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
-    font-family: 'Roboto';
+    font-family: sans-serif;
 }
 
 .topnav a:hover{
@@ -72,7 +72,7 @@ li {
 
 .shortdescr{
     color:white;
-    font-family: 'Roboto';
+    font-family: sans-serif;
     font-size: 20px;
     margin: auto;
     padding: 10px;
