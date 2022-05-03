@@ -142,3 +142,21 @@ li {
     color: aquamarine;
     transform: scale(1.05);
 }
+
+.layout {
+  width: 90%;
+  padding-top: 2%;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectbox {
+    width:300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid var(--main-background);
+    background-color: var(--main-color);
+    text-align: center;
+}
