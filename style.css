@@ -27,7 +27,7 @@ body{
     background-attachment: fixed;
     background-color: #000;
     color: white;
-    font-family: 'Roboto';
+    font-family: sans-serif;
 }
 
 li {
