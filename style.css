@@ -27,7 +27,7 @@ body{
     background-attachment: fixed;
     background-color: #000;
     color: white;
-    font-family: 'Roboto';
+    font-family: sans-serif;
 }
 
 li {
@@ -141,8 +141,4 @@ li {
 .contacts a:hover{
     color: aquamarine;
     transform: scale(1.05);
-}
-
-.ytvids{
-    border: none;
 }
