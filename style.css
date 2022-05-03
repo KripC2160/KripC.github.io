@@ -6,7 +6,7 @@ html{
     --main-color: #1C1C1C;
     --main-text-color: lightgrey;
     --main-background: #2D2D2D;
-    --highlight: #a0d6b4;
+    --highlight: aquamarine;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
@@ -25,7 +25,7 @@ html{
 body{
     background-image: url('img/Webp.net-resizeimage.png');
     background-attachment: fixed;
-    background-color: var(--main-background);
+    background-color: #000;
 }
 
 li {
@@ -60,10 +60,12 @@ li {
     text-decoration: none;
     font-size: 25px;
     font-family: sans-serif;
+    transition: transform .2s;
 }
 
 .topnav a:hover{
-    color: rgb(170, 170, 170)
+    color: rgb(170, 170, 170);
+    transform: scale(1.05);
 }
 
 .topnav a.active {
@@ -82,33 +84,49 @@ li {
 }
 
 .creationsh1{
-    font-family: sans-serif;
-    font-size: 17px;
-    text-align: left;
     color:white;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: left;
     display: flex;
     justify-content: center;
-    margin-top: 18%;
-    margin-right: 20%;
+}
+.creationshp{
+    width: 50%;
+    color:white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
 }
 
-.creationsh1 h1{
-    display: flex;
-    justify-content: center;
-    margin: auto;
+.creationshimg{
+    width: 50%;
+    height: 50%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.creationsh1 p{
-    display: flex;
+.fmaldlink {
+    color:white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
     justify-content: center;
-    margin: auto;
     position: relative;
-    top: 30%;
-    left: 12%;
+    padding-top: 2%;
+    transition: transform .2s;
 }
 
-.creationsh1 img{
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
+.fmaldlink:hover{
+    color:aquamarine;
+    transform: scale(1.05);
 }
