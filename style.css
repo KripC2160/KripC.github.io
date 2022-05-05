@@ -153,10 +153,22 @@ li {
 }
 
 .projectbox {
-    width:300px;
-    height: 300px;
+    width:200px;
+    height: 200px;
     border-radius: 5px;
     border: 1px solid var(--main-background);
     background-color: var(--main-color);
     text-align: center;
+}
+
+.projectbox a {
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    transition: transform .2s;
+}
+
+.projectbox a:hover{
+    color: aquamarine;
+    transform:scale(1.05);
 }
