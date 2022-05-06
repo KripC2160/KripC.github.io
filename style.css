@@ -24,6 +24,7 @@ html{
 
 body{
     background-image: url('img/Webp.net-resizeimage.png');
+    background-position: center center;
     background-attachment: fixed;
     background-color: #000;
     color: white;
@@ -202,4 +203,52 @@ li {
 
 #toc_container ul li a:visited{
     color:deeppink;
+}
+
+.projlog p{
+    width: 50%;
+    font-size: 16px;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center; 
+}
+
+.projlog ul{
+    font-size: 16px;
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.projheading{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.projsubheading{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#proj_0_1 ul{
+    font-size: 16px;
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    width: 20%;
+}
+
+#proj_0_1 ul li{
+    margin-bottom: 5px;
+}
+
+#proj_0_1 ul li ul li{
+    width: 300%;
+    margin-bottom: 3px;
 }
