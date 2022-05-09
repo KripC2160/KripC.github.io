@@ -43,15 +43,14 @@
     list-style: outside none none !important;
 }
 
-
-.projlog p{
+.subprojlog p{
     width: 50%;
     font-size: 16px;
     margin: auto;
     padding: 10px;
     text-align: left;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .projlog ul{
@@ -90,4 +89,20 @@
 #proj_0_1 ul li ul li{
     width: 300%;
     margin-bottom: 3px;
+}
+
+.SucCriTable{
+    width: 50%;
+    display: grid;
+    margin: 0 auto;
+    text-align: left;
+}
+
+td p{
+    padding: 10px;
+}
+
+th, tr, td{
+    border: 1px solid white;
+    text-align: left;
 }
