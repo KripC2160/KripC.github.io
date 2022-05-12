@@ -6,5 +6,8 @@
         "projsubheading",
         "Storyboarding",
         "subprojlog"
+    ],
+    "cSpell.enableFiletypes": [
+        "gdscript"
     ]
 }
