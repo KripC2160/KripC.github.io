@@ -41,7 +41,7 @@ var color_list = [
 
 
 var distro_list = [
-    "TEST", "FMALDALL", "FMALDDEBIAN", "FMALDARCH", "FMALDGENTOO", "FMALDREDHAT", "FMALDSUSE", "FMALDSLACK", "FMALDOTHER"
+    "FMALDALL", "FMALDDEBIAN", "FMALDARCH", "FMALDGENTOO", "FMALDREDHAT", "FMALDSUSE", "FMALDSLACK", "FMALDOTHER"
 ];
 
 var elem_list = [
@@ -51,15 +51,32 @@ var elem_list = [
 
 function clicked(){
 
+    Array.prototype.extend = function (other_array) {
+        other_array.forEach(function(v) {this.push(v)}, this);
+    }
+
+    var totalList = [];
+    var totaleollist = [];
+
     var distrolink_list = [
-        "gap", links, debianlinks, archlinks, gentoolinks, 
+        totalList, debianlinks, archlinks, gentoolinks, 
         redhatlinks, suselinks, slacklinks, otherlinks
     ];
     
     var eoldistrolink_list = [
-        "gap", EOLlinks, EOLdebianlinks, EOLarchlinks, EOLgentoolinks, 
+        totaleollist, EOLdebianlinks, EOLarchlinks, EOLgentoolinks, 
         EOLredhatlinks, EOLsuselinks, EOLslacklinks, EOLotherlinks
     ];
+
+    for(var i = 0; i < distro_list.length; i++){
+        totalList.extend(distrolink_list[i]);
+    }
+
+    for(var i = 2; i < eoldistrolink_list.length; i++){
+        totaleollist.extend(distrolink_list[i]);
+    }
+
+    console.log(totalList);
 
     if (EOLToggle == 1){
         var chosentype = Math.floor((Math.random()*100)+ 1);
