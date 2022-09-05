@@ -1,5 +1,4 @@
 //This file contains all the links 
-/*
 var links = [
     "https://ubuntu.com/",
     "http://ubuntuce.com/",
@@ -136,9 +135,6 @@ var links = [
     "https://en.cutefishos.com/", //the website takes ages to load, if ever
     "https://rockylinux.org/"
 ];
-*/
-
-/*
 
 var EOLlinks = [
     "https://archiveos.org/redstar/", 
@@ -219,7 +215,6 @@ var EOLlinks = [
     "http://www.ututo.org/en/"
 ];
 
-*/
 
 var debianlinks = [
     "https://ubuntu.com/",
