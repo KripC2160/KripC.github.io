@@ -25,7 +25,8 @@ log = [
     {"Date": "2022/9/18", "Note": "- Finalized the texturing and modeling for character models <br><br>- Completed first two scenes of the storyboard <br><br>- Not satisfied with the result of second scene so planning to do another iteration", "Footage": "img/logimg/image11.png"},
     {"Date": "2022/9/19", "Note": "- Added water ration to the astronaut model <br><br>- Continued working on the storyboard", "Footage": ""},
     {"Date": "2022/9/21", "Note": "Did rehearsal with Mr.Hauet and Hal, set up rehearsal time for other actors", "Footage": ""},
-    {"Date": "2022/9/25", "Note": "- Began migrating personal project log into my website using Javascript <br><br>- Continued working on the storyboard", "Footage": ""}
+    {"Date": "2022/9/25", "Note": "- Began migrating personal project log into my website using Javascript <br><br>- Continued working on the storyboard", "Footage": "img/logimg/image24.png"},
+    {"Date": "2022/9/26", "Note": "- Rehearsed and recorded Ms.Greaves fort the B.U.Z.Z.'s voice <br><br>- Learned dynamic paint in order to create footprints <br><br> - Continued working on the storyboard", "Footage": ""}
 ]
 
 //NOTE: Multiple notes should be resolved with <br><br>
