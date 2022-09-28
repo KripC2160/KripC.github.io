@@ -27,7 +27,8 @@ log = [
     {"Date": "2022/9/21", "Note": "Did rehearsal with Mr.Hauet and Hal, set up rehearsal time for other actors", "Footage": ""},
     {"Date": "2022/9/25", "Note": "- Began migrating personal project log into my website using Javascript <br><br>- Continued working on the storyboard", "Footage": "img/logimg/image24.png"},
     {"Date": "2022/9/26", "Note": "- Rehearsed and recorded Ms.Greaves fort the B.U.Z.Z.'s voice <br><br><audio controls src='img/logimg/BUZZ VOICE RAW.mp3'></audio><br><br>- Learned dynamic paint in order to create footprints <br><br> - Continued working on the storyboard", "Footage": ""},
-    {"Date": "2022/9/27", "Note": "- Recorded the voices for Mr.Hauet, Mr.Seidel, and Hal for the rest of the cast <br><br> <audio controls src='img/logimg/ASTRONAUT 1.mp3'></audio", "Footage": "img/logimg/image25.jpeg"}
+    {"Date": "2022/9/27", "Note": "- Recorded the voices for Mr.Hauet, Mr.Seidel, and Hal for the rest of the cast <br><br> <audio controls src='img/logimg/ASTRONAUT 1.mp3'></audio", "Footage": "img/logimg/image25.jpeg"},
+    {"Date": "2022/9/28", "Note": "- Began planning out the scenes <br><br>- Contacted Mr.Quint for meeting <br><br>- Began polishing and splicing the audio", "Footage": "img/logimg/image26.png"}
 ]
 
 //NOTE: Multiple notes should be resolved with <br><br>
