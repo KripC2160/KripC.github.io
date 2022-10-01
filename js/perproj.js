@@ -34,12 +34,16 @@ window.onload = function(){
         var ftg = document.createElement("img");
         ftg.className = "ftgclass";
         ftg.src = c3_l[x];
+        ftg.setAttribute("loading", "lazy");
         cell3.appendChild(ftg);
         console.log(ftg.src);
         
         if (ftg.src.slice(-1) != 'g'){ //deletes the img if it's N/A
             ftg.remove();
-            cell3.innerHTML = " N / A";
+            ftg = document.createElement("p");
+            ftg.innerHTML = "N / A";
+            ftg.id = 'pid->'+c1_l[x]; // added id just in case n/a needs to be removed
+            cell3.appendChild(ftg);
             cell3.className = "ftgna";
         } 
         
@@ -48,6 +52,7 @@ window.onload = function(){
         cell2.className = 'logCell';
         cell2.innerHTML = c2_l[x];
         //cell3.appendChild(ftg);
+        cell3.id = 'cell->'+c1_l[x];
     }
 
     //adding title to the table 
@@ -58,5 +63,19 @@ window.onload = function(){
     cell1.innerHTML = "Date";
     cell2.innerHTML = "Note";
     cell3.innerHTML = "Footage";
+
+    //EDIT SECTION
+
+    document.getElementById('pid->2022/9/26').remove();
+    var D2022926 = document.createElement("audio");
+    D2022926.setAttribute("src", "img/logimg/BUZZ VOICE RAW.mp3");
+    D2022926.setAttribute("controls", "controls");
+    document.getElementById('cell->2022/9/26').appendChild(D2022926);
+
+    var D2022927 = document.createElement("audio");
+    D2022927.setAttribute("src","img/logimg/ASTRONAUT 1.mp3");
+    D2022927.setAttribute("controls", "controls");
+    document.getElementById('cell->2022/9/27').appendChild(D2022927);
+
 
 }

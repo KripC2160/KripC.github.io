@@ -26,11 +26,12 @@ log = [
     {"Date": "2022/9/19", "Note": "- Added water ration to the astronaut model <br><br>- Continued working on the storyboard", "Footage": ""},
     {"Date": "2022/9/21", "Note": "Did rehearsal with Mr.Hauet and Hal, set up rehearsal time for other actors", "Footage": ""},
     {"Date": "2022/9/25", "Note": "- Began migrating personal project log into my website using Javascript <br><br>- Continued working on the storyboard", "Footage": "img/logimg/image24.png"},
-    {"Date": "2022/9/26", "Note": "- Rehearsed and recorded Ms.Greaves fort the B.U.Z.Z.'s voice <br><br><audio controls src='img/logimg/BUZZ VOICE RAW.mp3'></audio><br><br>- Learned dynamic paint in order to create footprints <br><br> - Continued working on the storyboard", "Footage": ""},
-    {"Date": "2022/9/27", "Note": "- Recorded the voices for Mr.Hauet, Mr.Seidel, and Hal for the rest of the cast <br><br> <audio controls src='img/logimg/ASTRONAUT 1.mp3'></audio", "Footage": "img/logimg/image25.jpeg"},
+    {"Date": "2022/9/26", "Note": "- Rehearsed and recorded Ms.Greaves fort the B.U.Z.Z.'s voice <br><br>- Learned dynamic paint in order to create footprints <br><br> - Continued working on the storyboard", "Footage": ""},
+    {"Date": "2022/9/27", "Note": "- Recorded the voices for Mr.Hauet, Mr.Seidel, and Hal for the rest of the cast", "Footage": "img/logimg/image25.jpeg"},
     {"Date": "2022/9/28", "Note": "- Began planning out the scenes <br><br>- Contacted Mr.Quint for meeting <br><br>- Began polishing and splicing the audio", "Footage": "img/logimg/image26.png"},
     {"Date": "2022/9/29", "Note": "- Continued planning out the scenes <br><br>- Completed splicing the voice audio for Buzz and also completed Mission Control's voicelines", "Footage": "img/logimg/image27.png"},
-    {"Date": "2022/9/30", "Note": "- Met with Mr.Quint for the first supervisor meeting <br><br>- Sent Email to person who works at a game company to find out if he knows people who work in animation industry that could be interviewed <br><br>- Completed editing and splicing the voice for Astronaut 2", "Footage": ""}
+    {"Date": "2022/9/30", "Note": "- Met with Mr.Quint for the first supervisor meeting <br><br>- Sent Email to person who works at a game company to find out if he knows people who work in animation industry that could be interviewed <br><br>- Completed editing and splicing the voice for Astronaut 2", "Footage": ""},
+    {"Date": "2022/10/1", "Note": "- Completed editing and splicing the voices <br><br>- Revamped the log system which allows addition of more than one file in the footage cell", "Footage": ""}
 ]
 
 //NOTE: Multiple notes should be resolved with <br><br>
