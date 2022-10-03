@@ -60,11 +60,28 @@ window.onload = function(){
     var cell1 = row.insertCell(0);
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
+
+    cell1.className = 'tableHeading';
+    cell2.className = 'tableHeading';
+    cell3.className = 'tableHeading';
+    
     cell1.innerHTML = "Date";
     cell2.innerHTML = "Note";
     cell3.innerHTML = "Footage";
 
     //EDIT SECTION
+    document.getElementById('pid->2022/9/9').remove();
+    var D20220909V1 = document.createElement('img');
+    D20220909V1.style = 'width:70%; height:70%; display:block; align-items: center; margin: auto; padding: 10px;';
+    D20220909V1.src = 'img/logimg/audftg1.jpeg';
+    D20220909V1.setAttribute("loading", "lazy");
+    document.getElementById('cell->2022/9/9').appendChild(D20220909V1);
+
+    var D20220909V2 = document.createElement('img');
+    D20220909V2.style = 'width:70%; height:70%; display:block; align-items: center; margin: auto; padding: 10px;';
+    D20220909V2.src = 'img/logimg/audftg2.jpeg';
+    D20220909V2.setAttribute("loading", "lazy");
+    document.getElementById('cell->2022/9/9').appendChild(D20220909V2);
 
     document.getElementById('pid->2022/9/26').remove();
     var D2022926 = document.createElement("audio");
