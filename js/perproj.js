@@ -94,5 +94,11 @@ window.onload = function(){
     D2022927.setAttribute("controls", "controls");
     document.getElementById('cell->2022/9/27').appendChild(D2022927);
 
+    var D20221004 = document.createElement('img');
+    D20221004.style = 'width: 90%; height: 90%; display: block; align-items: center; margin: auto; padding: 10px;'
+    D20221004.src = 'img/logimg/image30.png';
+    D20221004.setAttribute("loading", "lazy");
+    document.getElementById('cell->2022/10/4').appendChild(D20221004);
+
 
 }
