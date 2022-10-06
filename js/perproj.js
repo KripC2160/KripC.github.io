@@ -1,4 +1,3 @@
-
 window.onload = function(){
 
     let counter = 0;
@@ -10,13 +9,13 @@ window.onload = function(){
         //log[i].SOMETHINGSOMETHIN
         //if (log[i].status === '0') counter++;
         counter++;
-        console.log(log[i]);
+        //console.log(log[i]);
         c1_l.push(log[i].Date);
         c2_l.push(log[i].Note);
         c3_l.push(log[i].Footage);
     } 
 
-    console.log(c1_l, c2_l, c3_l);
+    //console.log(c1_l, c2_l, c3_l);
     var table = document.getElementById("table");
 
     //reversing the array so it comes out in a right timeline
@@ -34,9 +33,12 @@ window.onload = function(){
         var ftg = document.createElement("img");
         ftg.className = "ftgclass";
         ftg.src = c3_l[x];
+        //x < 10 ? ftg.id = 'modalimg0'+[x] : ftg.id = 'modalimg'+[x]; //adding 0 at the front if number is less than 10
+        ftg.id = 'modalimg';
+        ftg.setAttribute('onclick', "toggleModal('"+c3_l[x]+"')")
         ftg.setAttribute("loading", "lazy");
         cell3.appendChild(ftg);
-        console.log(ftg.src);
+        //console.log(ftg.src);
         
         if (ftg.src.slice(-1) != 'g'){ //deletes the img if it's N/A
             ftg.remove();
@@ -69,17 +71,20 @@ window.onload = function(){
     cell2.innerHTML = "Note";
     cell3.innerHTML = "Footage";
 
-    //EDIT SECTION
+    //EDIT SECTION ///////////////////////////////////////////////////
+
     document.getElementById('pid->2022/9/9').remove();
     var D20220909V1 = document.createElement('img');
-    D20220909V1.style = 'width:70%; height:70%; display:block; align-items: center; margin: auto; padding: 10px;';
+    D20220909V1.className = 'ftgclass';
     D20220909V1.src = 'img/logimg/audftg1.jpeg';
+    D20220909V1.setAttribute('onclick', "toggleModal('"+D20220909V1.src+"')")
     D20220909V1.setAttribute("loading", "lazy");
     document.getElementById('cell->2022/9/9').appendChild(D20220909V1);
 
     var D20220909V2 = document.createElement('img');
-    D20220909V2.style = 'width:70%; height:70%; display:block; align-items: center; margin: auto; padding: 10px;';
+    D20220909V2.className = 'ftgclass';
     D20220909V2.src = 'img/logimg/audftg2.jpeg';
+    D20220909V2.setAttribute('onclick', "toggleModal('"+D20220909V2.src+"')")
     D20220909V2.setAttribute("loading", "lazy");
     document.getElementById('cell->2022/9/9').appendChild(D20220909V2);
 
@@ -95,10 +100,28 @@ window.onload = function(){
     document.getElementById('cell->2022/9/27').appendChild(D2022927);
 
     var D20221004 = document.createElement('img');
-    D20221004.style = 'width: 90%; height: 90%; display: block; align-items: center; margin: auto; padding: 10px;'
+    D20221004.className = 'ftgclass';
     D20221004.src = 'img/logimg/image30.png';
+    D20221004.setAttribute('onclick', "toggleModal('"+D20221004.src+"')")
     D20221004.setAttribute("loading", "lazy");
     document.getElementById('cell->2022/10/4').appendChild(D20221004);
 
+    /////////////////////////////////////////////////////////////////
+};
 
-}
+function toggleModal(IMAGE){
+    var modal = document.getElementById('modalID');
+    // console.log(IMAGE); //prints image file directory; comment out if uneeded
+    var modalm1 = document.createElement("img"); // creates <img>
+    modalm1.style = 'width:80%; height: 80%; display: block; align-items: center; margin: auto;'; 
+    modalm1.id = 'modalm1';
+    modalm1.src = IMAGE;
+    modal.appendChild(modalm1);
+    modal.style = 'display: block'; //show modal
+};
+
+function hideModal(){
+    var modal = document.getElementById('modalID');
+    modal.style = 'display: none';
+    document.getElementById('modalm1').remove();
+};

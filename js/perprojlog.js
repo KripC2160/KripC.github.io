@@ -33,7 +33,8 @@ log = [
     {"Date": "2022/9/30", "Note": "- Met with Mr.Quint for the first supervisor meeting <br><br>- Sent Email to person who works at a game company to find out if he knows people who work in animation industry that could be interviewed <br><br>- Completed editing and splicing the voice for Astronaut 2", "Footage": ""},
     {"Date": "2022/10/1", "Note": "- Completed editing and splicing the voices <br><br>- Revamped the log system which allows addition of more than one file in the footage cell", "Footage": ""},
     {"Date": "2022/10/3", "Note": "- Continued revamping the website <br><br>- Added the photos from the audition <br><br>- Added new research result section <br><br>- Reworded success criteria and began organizing citations", "Footage": "img/logimg/image28.png"},
-    {"Date": "2022/10/4", "Note": "- Continued filling up the research result section <br><br>- Optimized images in the website <br><br>- Planned out a date for the meeting date <br><br>- Purchased <a class='links' href='https://www.physicaladdons.com/psa/'>Physical Starlight and Atmosphere</a> Plugin for realistic sky <br><br>- Created the main file for the film, making sure everything works as intended", "Footage": "img/logimg/image29.png"}
+    {"Date": "2022/10/4", "Note": "- Continued filling up the research result section <br><br>- Optimized images in the website <br><br>- Planned out a date for the meeting date <br><br>- Purchased <a class='links' href='https://www.physicaladdons.com/psa/'>Physical Starlight and Atmosphere</a> Plugin for realistic sky <br><br>- Created the main file for the film, making sure everything works as intended", "Footage": "img/logimg/image29.png"},
+    {"Date": "2022/10/7", "Note": "- Met with supervisor for a meeting <br><br>- Worked on environment <br><br>- Received special request for the Astronaut 2 to have stickers for personality", "Footage": "img/logimg/image31.png"}
 ]
 
 //NOTE: Multiple notes should be resolved with <br><br>
