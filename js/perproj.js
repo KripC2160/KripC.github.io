@@ -113,7 +113,8 @@ function toggleModal(IMAGE){
     var modal = document.getElementById('modalID');
     // console.log(IMAGE); //prints image file directory; comment out if uneeded
     var modalm1 = document.createElement("img"); // creates <img>
-    modalm1.style = 'width:80%; height: 80%; display: block; align-items: center; margin: auto;'; 
+    // this line checks if screen size is small (e.g. smartphone ) and adds style accordingly 
+    screen.width < 760 ? modalm1.style = 'width:20% min-width: 20%; height: 20%; min-height: 20%; position: absolute; top: 50%; transform:translateY(-50%); left: 50%; transform:translateX(-50%);' : modalm1.style = 'width:80% min-width: 80%; height: 80%; min-height: 80%; display: block; align-items: center; margin: auto;'; 
     modalm1.id = 'modalm1';
     modalm1.src = IMAGE;
     modal.appendChild(modalm1);
