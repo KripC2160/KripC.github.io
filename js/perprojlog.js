@@ -34,7 +34,9 @@ log = [
     {"Date": "2022/10/1", "Note": "- Completed editing and splicing the voices <br><br>- Revamped the log system which allows addition of more than one file in the footage cell", "Footage": ""},
     {"Date": "2022/10/3", "Note": "- Continued revamping the website <br><br>- Added the photos from the audition <br><br>- Added new research result section <br><br>- Reworded success criteria and began organizing citations", "Footage": "img/logimg/image28.png"},
     {"Date": "2022/10/4", "Note": "- Continued filling up the research result section <br><br>- Optimized images in the website <br><br>- Planned out a date for the meeting date <br><br>- Purchased <a class='links' href='https://www.physicaladdons.com/psa/'>Physical Starlight and Atmosphere</a> Plugin for realistic sky <br><br>- Created the main file for the film, making sure everything works as intended", "Footage": "img/logimg/image29.png"},
-    {"Date": "2022/10/7", "Note": "- Met with supervisor for a meeting <br><br>- Worked on environment <br><br>- Received special request for the Astronaut 2 to have stickers for personality", "Footage": "img/logimg/image31.png"}
+    {"Date": "2022/10/7", "Note": "- Met with supervisor for a meeting <br><br>- Worked on environment <br><br>- Received special request for the Astronaut 2 to have stickers for personality", "Footage": "img/logimg/image31.png"},
+    {"Date": "2022/10/8", "Note": "- Continued completing the research result part <br><br>- Evaluated the time which whole project would likely take to render <br><br>- began brainstorming questions for email interview <br><br>- Continued creating the first scene", "Footage": ""},
+    {"Date": "2022/10/11", "Note":"- Began editing the voice lines using DAW <br><br>- Recorded reference footage with people at school <br><br>- Continued working on creating the first scene; current render time is approximately 16~17 minutes, need to make it much shorter", "Footage":"img/logimg/image32.png"}
 ]
 
 //NOTE: Multiple notes should be resolved with <br><br>
