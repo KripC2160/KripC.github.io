@@ -38,7 +38,7 @@ log = [
     {"Date": "2022/10/8", "Note": "- Continued completing the research result part <br><br>- Evaluated the time which whole project would likely take to render <br><br>- began brainstorming questions for email interview <br><br>- Continued creating the first scene", "Footage": ""},
     {"Date": "2022/10/11", "Note":"- Began editing the voice lines using DAW <br><br>- Recorded reference footage with people at school <br><br>- Continued working on creating the first scene; current render time is approximately 16~17 minutes, need to make it much shorter", "Footage":"img/logimg/image32.png"},
     {"Date": "2022/10/12", "Note":"- Continued working on voice editing <br><br>- Managed to optimize the scene to render in 6 ~ 9 minutes. However, I am not happy with how the terrain and the texture turned out. Planning on revamping them", "Footage": ""},
-    {"Date": "2022/10/13", "Note":"- Revamped the terrain, and it is looking far much better. Adjusting light a bit more could be done <br><br>- Sent emails to people to interview", "Footage": ""}
+    {"Date": "2022/10/13", "Note":"- Revamped the terrain, and it is looking far much better. Adjusting light a bit more could be done <br><br>- Sent emails to people to interview", "Footage": "img/logimg/image33.png"}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
