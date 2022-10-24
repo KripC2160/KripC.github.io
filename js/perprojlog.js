@@ -41,7 +41,11 @@ log = [
     {"Date": "2022/10/13", "Note": "- Revamped the terrain, and it is looking far much better. Adjusting light a bit more could be done <br><br>- Sent emails to people to interview", "Footage": "img/logimg/image33.png"},
     {"Date": "2022/10/14", "Note": "- Adjusted lightings and materials which I am satisfied with <br><br>- Optimized the scene further", "Footage": "img/logimg/image34.png"},
     {"Date": "2022/10/17", "Note": "- Continued working on the animations; looking currently into NLA tracker to evaluate if they will be useful for this project <br><br>- Terrains had difficulties creating footsteps/trails so added more vertices for it to work. While it did, it slowed the whole project to the point where it was unusable and was frying my computer. Decided to revert the changes, and rely on smoke simulations to convey the trail instead <br><br>- Sent an email to one of the interviewee to arrange a time for an interview", "Footage": ""},
-    {"Date": "2022/10/18", "Note": "- Continued animating <br><br> Completed research and source evaluation for resources online; Preparing for interviews in order to fully complete the research phase", "Footage": "img/logimg/image35.png"}
+    {"Date": "2022/10/18", "Note": "- Continued animating <br><br> Completed research and source evaluation for resources online; Preparing for interviews in order to fully complete the research phase", "Footage": "img/logimg/image35.png"},
+    {"Date": "2022/10/20", "Note": "- Worked further onto voice editing, decided to separate each voice channel per character and sound effects when exporting", "Footage": ""},
+    {"Date": "2022/10/21", "Note": "- Animated the walk cycles of each character, and beginning to polish them out <br><br>- Backed up the entire project due to moving home", "Footage": ""},
+    {"Date": "2022/10/22", "Note": "- Interviewed the first interviewee for research, got the answers needed and got very good advices not only for the projects but also for animations as a whole", "Footage": ""},
+    {"Date": "2022/10/24", "Note": "- Decided to take the advice from the interviewee, and scale down the final prodcut. The current final product is aimed at creating a short animation film with only scene 3 with giving additional context for it to work", "Footage": ""}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
