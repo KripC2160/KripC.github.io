@@ -109,6 +109,12 @@ th, tr, td{
     margin-right: auto;
     padding: 10px;
     cursor: pointer;
+    filter: drop-shadow(0 0 0rem black);
+    transition: filter 0.2s linear;
+}
+
+.ftgclass:hover{
+    filter: drop-shadow(0 0 0.15rem aquamarine);
 }
 
 .ftgna{
