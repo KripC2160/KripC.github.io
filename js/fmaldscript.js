@@ -1,12 +1,7 @@
 
 
 //local storage variable
-// looks bad, but I still don't know the true solution to localstorage issue so here we go
 if (localStorage.getItem("EOLToggle") === null){
-    localStorage.setItem("EOLToggle", 2);
-}
-
-if (localStorage.getItem("EOLToggle") == 2){
     localStorage.setItem("EOLToggle", 2);
 }
 
@@ -108,12 +103,7 @@ function changeButtonColor(){
             document.getElementById("EOLoff").style.backgroundColor = "white";
             document.getElementById("EOLonly").style.backgroundColor = "white";
             document.getElementById("random-button").style.backgroundColor= "white";
-            if (localStorage.dmToggle == 'light'){
-                document.getElementById("BigTitle").style.color = "white";
-            }
-            else if (localStorage.dmToggle == 'dark'){
-                document.getElementById("BigTitle").style.color = "#3D3D3D";
-            }
+            localStorage.dmToggle == 'light'?document.getElementById("BigTitle").style.color = "white":document.getElementById("BigTitle").style.color = "#3D3D3D";
             document.getElementById("FMALDOTHER").style.backgroundColor = "#F5F7FA";
             document.getElementById("FMALDOTHER").style.color = "#3D3D3D";
         }
@@ -180,80 +170,18 @@ function changeButtonColor(){
     }
 }
 
-function relocateGithubHome(){
-    var githubhome = "https://github.com/KripC2160/findmealinuxdistro";
-    window.open(githubhome);
-}
-
-function relocateGithub(){
-    var issues = "https://github.com/KripC2160/findmealinuxdistro/issues";
-    window.open(issues);
-}
-
-function TOGGLEEOLON(){
-    if (EOLToggle != 1){
-        EOLToggle = 1;
-        localStorage.setItem("EOLToggle", 1);
+function TOGGLEEOLON(val){
+    if (EOLToggle != val){
+        EOLToggle = val;
+        localStorage.setItem("EOLToggle", val);
         changeButtonColor();
     }
 }
-
-function TOGGLEEOLOFF(){
-    if (EOLToggle != 2){
-        EOLToggle = 2;
-        localStorage.setItem("EOLToggle", 2);
-        changeButtonColor();
-    }
-}
-
-function TOGGLEEOLONLY(){
-    if (EOLToggle != 3){
-        EOLToggle = 3;
-        localStorage.setItem("EOLToggle", 3);
-        changeButtonColor();
-    }
-}
-
 //option buttons
 
-function TOGGLEALL(){
-    localStorage.distroToggle = 1;
+function TOGGLE(num){
+    localStorage.distroToggle = num;
     changeButtonColor();
-}
-
-function TOGGLEDEBIAN(){
-    localStorage.distroToggle = 2;
-    changeButtonColor();
-}
-
-function TOGGLEARCH(){
-    localStorage.distroToggle = 3;
-    changeButtonColor();   
-}
-
-function TOGGLEGENTOO(){
-    localStorage.distroToggle = 4;
-    changeButtonColor();   
-}
-
-function TOGGLEREDHAT(){
-    localStorage.distroToggle = 5;
-    changeButtonColor();   
-}
-
-function TOGGLESUSE(){
-    localStorage.distroToggle = 6;
-    changeButtonColor();   
-}
-
-function TOGGLESLACK(){
-    localStorage.distroToggle = 7;
-    changeButtonColor();   
-}
-
-function TOGGLEOTHER(){
-    localStorage.distroToggle = 8;
-    changeButtonColor();   
 }
 
 function dmchange(){

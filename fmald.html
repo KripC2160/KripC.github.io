@@ -25,24 +25,24 @@
         <div class="FMALDportal">
             <span class="tip">You can choose specific variant of distributions you want to see using this option</span>
             <!-- number of items in fmald including index: 9-->
-            <button class="FMALDALL" id="FMALDALL" onclick="TOGGLEALL()">All</button>
-            <button class="FMALDDEBIAN" id="FMALDDEBIAN" onclick="TOGGLEDEBIAN()">DEBIAN</button>
-            <button class="FMALDARCH" id="FMALDARCH" onclick="TOGGLEARCH()">ARCH</button>
-            <button class="FMALDGENTOO" id="FMALDGENTOO" onclick="TOGGLEGENTOO()">GENTOO</button>
-            <button class="FMALDREDHAT" id="FMALDREDHAT" onclick="TOGGLEREDHAT()">RED HAT</button>
-            <button class="FMALDSUSE" id="FMALDSUSE" onclick="TOGGLESUSE()">SuSE</button>
-            <button class="FMALDSLACK" id="FMALDSLACK" onclick="TOGGLESLACK()">Slack</button>
-            <button class="FMALDOTHER" id="FMALDOTHER" onclick="TOGGLEOTHER()">OTHER</button>
+            <button class="FMALDALL" id="FMALDALL" onclick="TOGGLE(1)">All</button>
+            <button class="FMALDDEBIAN" id="FMALDDEBIAN" onclick="TOGGLE(2)">DEBIAN</button>
+            <button class="FMALDARCH" id="FMALDARCH" onclick="TOGGLE(3)">ARCH</button>
+            <button class="FMALDGENTOO" id="FMALDGENTOO" onclick="TOGGLE(4)">GENTOO</button>
+            <button class="FMALDREDHAT" id="FMALDREDHAT" onclick="TOGGLE(5)">RED HAT</button>
+            <button class="FMALDSUSE" id="FMALDSUSE" onclick="TOGGLE(6)">SuSE</button>
+            <button class="FMALDSLACK" id="FMALDSLACK" onclick="TOGGLE(7)">Slack</button>
+            <button class="FMALDOTHER" id="FMALDOTHER" onclick="TOGGLE(8)">OTHER</button>
         </div>
         <div class="EOLsettings">
             <span class="tip">Option for EOL (End Of Life) Distributions</span>
-            <button class="EOLoff" id="EOLoff" onclick="TOGGLEEOLOFF()">EOL Off</button>
-            <button class="EOLon" id="EOLon" onclick="TOGGLEEOLON()">EOL On</button>
-            <button class="EOLonly" id="EOLonly" onclick="TOGGLEEOLONLY()">EOL Only</button>
+            <button class="EOLoff" id="EOLoff" onclick="TOGGLEEOLON(2)">EOL Off</button>
+            <button class="EOLon" id="EOLon" onclick="TOGGLEEOLON(1)">EOL On</button>
+            <button class="EOLonly" id="EOLonly" onclick="TOGGLEEOLON(3)">EOL Only</button>
         </div>
         <footer>
-            <button class="GH" onclick="relocateGithubHome()"><img src="img/GitHub_logo.png" width="50px" height="50px"></button>
-            <button class="suggestions" onclick="relocateGithub()">Suggestions?</button>
+            <button class="GH" onclick="window.open('https://github.com/kripc2160/findmealinuxdistro', '_blank')"><img src="img/GitHub_logo.png" width="50px" height="50px"></button>
+            <button class="suggestions" onclick="window.open('https://github.com/kripc2160/findmealinuxdistro/issues','_blank')">Suggestions?</button>
             <h2 class="creditsanddate">© <script>document.write(new Date().getFullYear());</script>, Project by KripC</h2> <!-- the script automatically updates the year-->
         </footer>
     </body>
