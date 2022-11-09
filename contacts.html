@@ -1,48 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>KripC | Contacts</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="img/favicon.ico"/>
-        <script src="js/script.js"></script>
-    </head>
-    <body>
-        <header>
-            <div class="topnav">
-                <a href="index.html">Home</a>
-                <a href="personal-project.html">Personal Project</a>
-                <a href="youtube.html">Youtube</a>
-                <a class="active" href="contacts.html">Contacts</a>
-            </div>
-        </header>
-        <h1 class="TITLE">CONTACTS</h1>
-        <hr size="1" width="60%" color="white" style="margin-bottom: 100px">
-        <div id="contactlist">
+
+<head>
+    <title>KripC | Contacts</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico" />
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="personal-project.html">Personal Project</a>
+            <a href="youtube.html">Youtube</a>
+            <a class="active" href="contacts.html">Contacts</a>
+        </div>
+    </header>
+    <h1 class="TITLE">CONTACTS</h1>
+    <hr size="1" width="60%" color="white" style="margin-bottom: 100px">
+    <div id="contactlist">
+        <div style="width:50%">
+            <h1 style="text-align:center;">Social</h1>
+            <hr size="1" width="30%" color="white" style="margin-bottom: 30px">
             <!-- <a href="https://twitter.com/c_krip?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-dnt="true" data-show-count="false">Follow @c_krip</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
             <button class="twt" onclick="window.open('https://twitter.com/c_krip', '_blank')">
                 <i class='twticon'></i>
                 Twitter - @c_krip
             </button>
             <br>
-            <button class="ytb" onclick="window.open('https://www.youtube.com/channel/UCyTsNlXNg4TFXzCSlTq1W7A', '_blank')">
-              <svg class='yticon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="20" height="20"
-viewBox="0 0 64 64"
-style=" fill:#FFFFFF;"><path d="M56.456,17.442c-0.339-1.44-1.421-2.595-2.866-3.053C49.761,13.174,41.454,12,32,12s-17.761,1.174-21.591,2.389 c-1.445,0.458-2.527,1.613-2.866,3.053C6.903,20.161,6,25.203,6,32c0,6.797,0.903,11.839,1.544,14.558 c0.339,1.44,1.421,2.595,2.866,3.053C14.239,50.826,22.546,52,32,52s17.761-1.174,21.591-2.389 c1.445-0.458,2.527-1.613,2.866-3.053C57.097,43.839,58,38.797,58,32C58,25.203,57.097,20.161,56.456,17.442z M27,40V24l14.857,8 L27,40z"></path></svg>
-              Youtube 
+            <button class="ytb"
+                onclick="window.open('https://www.youtube.com/channel/UCyTsNlXNg4TFXzCSlTq1W7A', '_blank')">
+                <svg class='yticon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                    viewBox="0 0 64 64" style=" fill:#FFFFFF;">
+                    <path
+                        d="M56.456,17.442c-0.339-1.44-1.421-2.595-2.866-3.053C49.761,13.174,41.454,12,32,12s-17.761,1.174-21.591,2.389 c-1.445,0.458-2.527,1.613-2.866,3.053C6.903,20.161,6,25.203,6,32c0,6.797,0.903,11.839,1.544,14.558 c0.339,1.44,1.421,2.595,2.866,3.053C14.239,50.826,22.546,52,32,52s17.761-1.174,21.591-2.389 c1.445-0.458,2.527-1.613,2.866-3.053C57.097,43.839,58,38.797,58,32C58,25.203,57.097,20.161,56.456,17.442z M27,40V24l14.857,8 L27,40z">
+                    </path>
+                </svg>
+                Youtube
             </button>
             <br>
             <div class='copytip'>
                 Text Copied.
             </div>
-            <button class="discord" id="discord" onclick="copyDiscord()">
-              <svg class='discordicon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="20" height="20"
-viewBox="0 0 48 48"
-style=" fill:#FFFFFF;"><path fill="#FFFFFF" d="M39.248,10.177c-2.804-1.287-5.812-2.235-8.956-2.778c-0.057-0.01-0.114,0.016-0.144,0.068	c-0.387,0.688-0.815,1.585-1.115,2.291c-3.382-0.506-6.747-0.506-10.059,0c-0.3-0.721-0.744-1.603-1.133-2.291	c-0.03-0.051-0.087-0.077-0.144-0.068c-3.143,0.541-6.15,1.489-8.956,2.778c-0.024,0.01-0.045,0.028-0.059,0.051	c-5.704,8.522-7.267,16.835-6.5,25.044c0.003,0.04,0.026,0.079,0.057,0.103c3.763,2.764,7.409,4.442,10.987,5.554	c0.057,0.017,0.118-0.003,0.154-0.051c0.846-1.156,1.601-2.374,2.248-3.656c0.038-0.075,0.002-0.164-0.076-0.194	c-1.197-0.454-2.336-1.007-3.432-1.636c-0.087-0.051-0.094-0.175-0.014-0.234c0.231-0.173,0.461-0.353,0.682-0.534	c0.04-0.033,0.095-0.04,0.142-0.019c7.201,3.288,14.997,3.288,22.113,0c0.047-0.023,0.102-0.016,0.144,0.017	c0.22,0.182,0.451,0.363,0.683,0.536c0.08,0.059,0.075,0.183-0.012,0.234c-1.096,0.641-2.236,1.182-3.434,1.634	c-0.078,0.03-0.113,0.12-0.075,0.196c0.661,1.28,1.415,2.498,2.246,3.654c0.035,0.049,0.097,0.07,0.154,0.052	c3.595-1.112,7.241-2.79,11.004-5.554c0.033-0.024,0.054-0.061,0.057-0.101c0.917-9.491-1.537-17.735-6.505-25.044	C39.293,10.205,39.272,10.187,39.248,10.177z M16.703,30.273c-2.168,0-3.954-1.99-3.954-4.435s1.752-4.435,3.954-4.435	c2.22,0,3.989,2.008,3.954,4.435C20.658,28.282,18.906,30.273,16.703,30.273z M31.324,30.273c-2.168,0-3.954-1.99-3.954-4.435	s1.752-4.435,3.954-4.435c2.22,0,3.989,2.008,3.954,4.435C35.278,28.282,33.544,30.273,31.324,30.273z"></path></svg>
-              Discord - KripC#4389 
+            <button class="discord" id="discord" onclick="copyDiscord()" style="margin-bottom:0!important">
+                <svg class='discordicon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                    viewBox="0 0 48 48" style=" fill:#FFFFFF;">
+                    <path fill="#FFFFFF"
+                        d="M39.248,10.177c-2.804-1.287-5.812-2.235-8.956-2.778c-0.057-0.01-0.114,0.016-0.144,0.068	c-0.387,0.688-0.815,1.585-1.115,2.291c-3.382-0.506-6.747-0.506-10.059,0c-0.3-0.721-0.744-1.603-1.133-2.291	c-0.03-0.051-0.087-0.077-0.144-0.068c-3.143,0.541-6.15,1.489-8.956,2.778c-0.024,0.01-0.045,0.028-0.059,0.051	c-5.704,8.522-7.267,16.835-6.5,25.044c0.003,0.04,0.026,0.079,0.057,0.103c3.763,2.764,7.409,4.442,10.987,5.554	c0.057,0.017,0.118-0.003,0.154-0.051c0.846-1.156,1.601-2.374,2.248-3.656c0.038-0.075,0.002-0.164-0.076-0.194	c-1.197-0.454-2.336-1.007-3.432-1.636c-0.087-0.051-0.094-0.175-0.014-0.234c0.231-0.173,0.461-0.353,0.682-0.534	c0.04-0.033,0.095-0.04,0.142-0.019c7.201,3.288,14.997,3.288,22.113,0c0.047-0.023,0.102-0.016,0.144,0.017	c0.22,0.182,0.451,0.363,0.683,0.536c0.08,0.059,0.075,0.183-0.012,0.234c-1.096,0.641-2.236,1.182-3.434,1.634	c-0.078,0.03-0.113,0.12-0.075,0.196c0.661,1.28,1.415,2.498,2.246,3.654c0.035,0.049,0.097,0.07,0.154,0.052	c3.595-1.112,7.241-2.79,11.004-5.554c0.033-0.024,0.054-0.061,0.057-0.101c0.917-9.491-1.537-17.735-6.505-25.044	C39.293,10.205,39.272,10.187,39.248,10.177z M16.703,30.273c-2.168,0-3.954-1.99-3.954-4.435s1.752-4.435,3.954-4.435	c2.22,0,3.989,2.008,3.954,4.435C20.658,28.282,18.906,30.273,16.703,30.273z M31.324,30.273c-2.168,0-3.954-1.99-3.954-4.435	s1.752-4.435,3.954-4.435c2.22,0,3.989,2.008,3.954,4.435C35.278,28.282,33.544,30.273,31.324,30.273z">
+                    </path>
+                </svg>
+                KripC #4389
             </button>
         </div>
-    </body>
-</html> 
+        <div style="width:50%; display:flex; flex-direction: column; justify-content: space-between;">
+            <div>
+                <h1 style="text-align:center;">Links</h1>
+                <hr size="1" width="30%" color="white" style="margin-bottom: 30px">
+                <div style="width:188px; text-align: center; margin: auto;">
+                    <a href="https://yesterweb.org/no-to-web3/"><img style="border:1px solid white;"
+                            src="https://auzziejay.com/images/noweb32.gif"></a>
+                    <a href="https://moondvsted.neocities.org/"><img
+                            src="https://f2.toyhou.se/file/f2-toyhou-se/images/47052159_rd5iWTFAMmQWrMr.gif"></a>
+                    <a href="https://yesterweb.org/"><img src="https://yesterweb.org/img/button.png"></a>
+                </div>
+            </div>
+            <div>
+                <h3 style="text-align:center;">Link to me</h3>
+                <a href="https://kripc2160.github.io"><img style="border: 1px solid white; display:block; margin:auto"
+                        src="https://media.discordapp.net/attachments/925650174649466901/1035834461293650010/kripc.png"></a><br>
+                <textarea
+                    style="background-color:black; color:white; width:45%; max-width: 45%; display:block; margin:auto"><a href="https://kripc2160.github.io"><img style="border: 1px solid white;" src="https://media.discordapp.net/attachments/925650174649466901/1035834461293650010/kripc.png"></a></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

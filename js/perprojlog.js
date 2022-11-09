@@ -47,7 +47,8 @@ log = [
     {"Date": "2022/10/22", "Note": "- Interviewed the first interviewee for research, got the answers needed and got very good advices not only for the projects but also for animations as a whole", "Footage": ""},
     {"Date": "2022/10/24", "Note": "- Decided to take the advice from the interviewee, and scale down the final prodcut. The current final product is aimed at creating a short animation film with only scene 3 with giving additional context for it to work", "Footage": ""},
     {"Date": "2022/11/2", "Note": "- Completed the interview with the second interviewee <br><br>- Finally completed the research for the project <br><br>- Continued working on creating the terrain for the third scene", "Footage": ""},
-    {"Date": "2022/11/7", "Note": "- Worked on creating the terrain <br><br>- Currently dealing with burnout; looking for a way to resolve it or move on with it", "Footage": "img/logimg/image36.png"}
+    {"Date": "2022/11/7", "Note": "- Worked on creating the terrain <br><br>- Currently dealing with burnout; looking for a way to resolve it or move on with it", "Footage": "img/logimg/image36.png"},
+    {"Date": "2022/11/8", "Note": "- Set the date with the supervisor for the next meeting", "Footage": ""}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>

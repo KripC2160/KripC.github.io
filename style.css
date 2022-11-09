@@ -184,10 +184,10 @@ li {
     color:deeppink;
 }
 
-.contactlist{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+#contactlist {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
 }
 
 .twt{
