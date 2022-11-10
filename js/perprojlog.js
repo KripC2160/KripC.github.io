@@ -48,7 +48,8 @@ log = [
     {"Date": "2022/10/24", "Note": "- Decided to take the advice from the interviewee, and scale down the final prodcut. The current final product is aimed at creating a short animation film with only scene 3 with giving additional context for it to work", "Footage": ""},
     {"Date": "2022/11/2", "Note": "- Completed the interview with the second interviewee <br><br>- Finally completed the research for the project <br><br>- Continued working on creating the terrain for the third scene", "Footage": ""},
     {"Date": "2022/11/7", "Note": "- Worked on creating the terrain <br><br>- Currently dealing with burnout; looking for a way to resolve it or move on with it", "Footage": "img/logimg/image36.png"},
-    {"Date": "2022/11/8", "Note": "- Set the date with the supervisor for the next meeting", "Footage": ""}
+    {"Date": "2022/11/8", "Note": "- Set the date with the supervisor for the next meeting", "Footage": ""},
+    {"Date": "2022/11/9", "Note": "- Worked on the audio for the new scene <br><br>- Had a meeting with a supervisor and discussed various important topics <br><br>- Came up with the solution for the environment building during the supervisor meeting; Thinking of changing the sinkhole into a crater-like one", "Footage": "img/logimg/image37.png"}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
