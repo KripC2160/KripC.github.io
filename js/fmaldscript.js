@@ -93,7 +93,7 @@ function changeButtonColor(){
             document.getElementById("EOLon").style.backgroundColor = color_list[localStorage.distroToggle];
             document.getElementById("EOLoff").style.backgroundColor = color_list[localStorage.distroToggle];
             document.getElementById("random-button").style.backgroundColor=color_list[localStorage.distroToggle];
-            document.getElementById("EOLonly").style.backgroundColor = color_list[localStorage.distroToggle];
+            document.getElementById("EOLnly").style.backgroundColor = color_list[localStorage.distroToggle];
             document.getElementById("BigTitle").style.color = color_list[localStorage.distroToggle];
             document.getElementById(distro_list[localStorage.distroToggle]).style.backgroundColor = color_list[localStorage.distroToggle]; 
         }
@@ -185,11 +185,6 @@ function TOGGLE(num){
 }
 
 function dmchange(){
-    if (localStorage.dmToggle == 'dark'){
-        localStorage.setItem("dmToggle", 'light');
-    }
-    else if (localStorage.dmToggle == 'light'){
-        localStorage.setItem("dmToggle", 'dark');
-    }
+    localStorage.dmToggle == 'dark'?localStorage.setItem("dmToggle", 'light'):localStorage.setItem("dmToggle", 'dark');
     changeButtonColor();
 }
