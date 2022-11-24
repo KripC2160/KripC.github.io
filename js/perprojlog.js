@@ -52,7 +52,9 @@ log = [
     {"Date": "2022/11/9", "Note": "- Worked on the audio for the new scene <br><br>- Had a meeting with a supervisor and discussed various important topics <br><br>- Came up with the solution for the environment building during the supervisor meeting; Thinking of changing the sinkhole into a crater-like one", "Footage": "img/logimg/image37.png"},
     {"Date": "2022/11/10", "Note":"- New changes to the terrain being implemented <br><br>- began working on props and other required models for the scene", "Footage": "img/logimg/image38.png"},
     {"Date": "2022/11/15", "Note":"- Worked on modelling and texturing the tazer; added extra functionality for it to be easier to animate", "Footage": "img/logimg/image39.png"},
-    {"Date": "2022/11/16", "Note":"- Continued editing audio <br><br>- added more details to the tazer model", "Footage": "img/logimg/image40.png"}
+    {"Date": "2022/11/16", "Note":"- Continued editing audio <br><br>- added more details to the tazer model", "Footage": "img/logimg/image40.png"},
+    {"Date": "2022/11/20", "Note": "- Completed the tazer model and imported it into the main scene <br><br>- began properly animating with blocking out", "Footage": "img/logimg/image41.png"},
+    {"Date": "2022/11/21", "Note": "- Continued animating", "Footage": "img/logimg/image42.png"}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
