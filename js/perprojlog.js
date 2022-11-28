@@ -45,7 +45,7 @@ log = [
     {"Date": "2022/10/20", "Note": "- Worked further onto voice editing, decided to separate each voice channel per character and sound effects when exporting", "Footage": ""},
     {"Date": "2022/10/21", "Note": "- Animated the walk cycles of each character, and beginning to polish them out <br><br>- Backed up the entire project due to moving home", "Footage": ""},
     {"Date": "2022/10/22", "Note": "- Interviewed the first interviewee for research, got the answers needed and got very good advices not only for the projects but also for animations as a whole", "Footage": ""},
-    {"Date": "2022/10/24", "Note": "- Decided to take the advice from the interviewee, and scale down the final prodcut. The current final product is aimed at creating a short animation film with only scene 3 with giving additional context for it to work", "Footage": ""},
+    {"Date": "2022/10/24", "Note": "- Decided to take the advice from the interviewee, and scale down the final product. The current final product is aimed at creating a short animation film with only scene 3 with giving additional context for it to work", "Footage": ""},
     {"Date": "2022/11/2", "Note": "- Completed the interview with the second interviewee <br><br>- Finally completed the research for the project <br><br>- Continued working on creating the terrain for the third scene", "Footage": ""},
     {"Date": "2022/11/7", "Note": "- Worked on creating the terrain <br><br>- Currently dealing with burnout; looking for a way to resolve it or move on with it", "Footage": "img/logimg/image36.png"},
     {"Date": "2022/11/8", "Note": "- Set the date with the supervisor for the next meeting", "Footage": ""},
@@ -54,7 +54,9 @@ log = [
     {"Date": "2022/11/15", "Note":"- Worked on modelling and texturing the tazer; added extra functionality for it to be easier to animate", "Footage": "img/logimg/image39.png"},
     {"Date": "2022/11/16", "Note":"- Continued editing audio <br><br>- added more details to the tazer model", "Footage": "img/logimg/image40.png"},
     {"Date": "2022/11/20", "Note": "- Completed the tazer model and imported it into the main scene <br><br>- began properly animating with blocking out", "Footage": "img/logimg/image41.png"},
-    {"Date": "2022/11/21", "Note": "- Continued animating", "Footage": "img/logimg/image42.png"}
+    {"Date": "2022/11/21", "Note": "- Continued animating", "Footage": "img/logimg/image42.png"},
+    {"Date": "2022/11/26", "Note":"- Continued on animation <br><br>- Created the test render <br><br>- Had issues with rendering; looking into finding solutions", "Footage": ""},
+    {"Date": "2022/11/27", "Note":"- Completed the animation for shot 1 <br><br>- rendered the scene <br><br>- fixed the issue of render issue by upgrading to new version of blender", "Footage": "img/logimg/image43.png"}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
