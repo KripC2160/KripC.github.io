@@ -56,7 +56,9 @@ log = [
     {"Date": "2022/11/20", "Note": "- Completed the tazer model and imported it into the main scene <br><br>- began properly animating with blocking out", "Footage": "img/logimg/image41.png"},
     {"Date": "2022/11/21", "Note": "- Continued animating", "Footage": "img/logimg/image42.png"},
     {"Date": "2022/11/26", "Note":"- Continued on animation <br><br>- Created the test render <br><br>- Had issues with rendering; looking into finding solutions", "Footage": ""},
-    {"Date": "2022/11/27", "Note":"- Completed the animation for shot 1 <br><br>- rendered the scene <br><br>- fixed the issue of render issue by upgrading to new version of blender", "Footage": "img/logimg/image43.png"}
+    {"Date": "2022/11/27", "Note":"- Completed the animation for shot 1 <br><br>- rendered the scene <br><br>- fixed the issue of render issue by upgrading to new version of blender", "Footage": "img/logimg/image43.png"},
+    {"Date": "2022/12/4", "Note": "- Continued animating <br><br>- began modelling the monster model", "Footage": "img/logimg/image44.png"},
+    {"Date": "2022/12/5", "Note": "- Continued modelling and texturing the monster; added a rig with Inverse Kinematics", "Footage": "img/logimg/image45.png"}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
