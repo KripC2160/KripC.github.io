@@ -1,7 +1,12 @@
 
 
 //local storage variable
+// looks bad, but I still don't know the true solution to localstorage issue so here we go
 if (localStorage.getItem("EOLToggle") === null){
+    localStorage.setItem("EOLToggle", 2);
+}
+
+if (localStorage.getItem("EOLToggle") == 2){
     localStorage.setItem("EOLToggle", 2);
 }
 
