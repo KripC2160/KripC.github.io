@@ -59,7 +59,7 @@ log = [
     {"Date": "2022/11/27", "Note":"- Completed the animation for shot 1 <br><br>- rendered the scene <br><br>- fixed the issue of render issue by upgrading to new version of blender", "Footage": "img/logimg/image43.png"},
     {"Date": "2022/12/4", "Note": "- Continued animating <br><br>- began modelling the monster model", "Footage": "img/logimg/image44.png"},
     {"Date": "2022/12/5", "Note": "- Continued modelling and texturing the monster; added a rig with Inverse Kinematics", "Footage": "img/logimg/image45.png"},
-    {"Date": "2022/12/13", "Note": "- Went back to animating <br><br>- found good compositing group node online, will be using it and crediting the creator", "Footage": ""}
+    {"Date": "2022/12/13", "Note": "- Went back to animating <br><br>- found good compositing group node online, will be using it and crediting the creator <br><br>- realized the animation is faster than expected; going to adjust the animation", "Footage": ""}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
