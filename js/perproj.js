@@ -106,6 +106,13 @@ window.onload = function(){
     D20221004.setAttribute("loading", "lazy");
     document.getElementById('cell->2022/10/4').appendChild(D20221004);
 
+    var D20221216 = document.createElement('img');
+    D20221216.className = 'ftgclass';
+    D20221216.src= 'img/logimg/image47.png';
+    D20221216.setAttribute('onclick', "toggleModal('"+D20221216.src+"')")
+    D20221216.setAttribute("loading", "lazy");
+    document.getElementById('cell->2022/12/16').appendChild(D20221216);
+
     /////////////////////////////////////////////////////////////////
 };
 
