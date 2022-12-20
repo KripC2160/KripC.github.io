@@ -61,7 +61,8 @@ log = [
     {"Date": "2022/12/5", "Note": "- Continued modelling and texturing the monster; added a rig with Inverse Kinematics", "Footage": "img/logimg/image45.png"},
     {"Date": "2022/12/13", "Note": "- Went back to animating <br><br>- found good compositing group node online, will be using it and crediting the creator <br><br>- realized the animation is faster than expected; going to adjust the animation", "Footage": ""},
     {"Date": "2022/12/16", "Note": "- Have been having issues with rendering time, as even scenes rendered in eevee engine took about a minute. In order to make a test render, it was extremely inefficient. Solved the issue by changing the render engine to Workbench which renders in seconds <br><br>- Some parts of the animation looked choppy; solved the issue by using bezier curves <br><br>- Inspired by the recent blender in-house studio animation behind the scenes, I will be focusing more on creating the animation, and then rendering the shot on top like onion layers", "Footage": "img/logimg/image46.png"},
-    {"Date": "2022/12/17", "Note": "- Completed animating the second shot <br><br>- Contacted the first renderer and encountered some problems; trying to resolve the issues", "Footage": ""}
+    {"Date": "2022/12/17", "Note": "- Completed animating the second shot <br><br>- Contacted the first renderer and encountered some problems; trying to resolve the issues", "Footage": ""},
+    {"Date": "2022/12/21", "Note": "- Completed shot 3 and 4, working on 5; <br><br>- Fixed the issue with the sky, able to render outside of my computer<br><br>- Recruiting and summoning more people for rendering", "Footage": "img/logimg/image48.png"}
 ];
 
 //NOTE: Multiple notes should be resolved with <br><br>
